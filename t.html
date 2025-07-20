@@ -6,23 +6,27 @@
     <title>Academy Registration form</title>
 <link rel="stylesheet" href="t.css"/>
 </head>
-<body class="b">
+<body class="body">
   <div class="container">
     <div>
       <img class="logo" src="logo.png" alt="logo" />
     </div>
-    <h2 class="t">Avition club</h2>
-    <form class="s" action="" method="post">
+    <h2 class="ti">Avition club</h2>
+    <form  action="" method="post">
+      <div class="i">
+      <div class="yyy">
       <label for="Full Name">Full Name (in english)</label>
-      <input class="p" type="text"id="Full Name"name="Full Name" placeholder="Enter Full Name"required/>
-      <div>
+      <input type="text"id="Full Name"name="Full Name" placeholder="Enter Full Name"required/>
+     </div> 
+     <div class="yyy">
         <label for="Phone Number">Phone Number</label>
-        <input class="n" type="text"id="Phone Number"name="Phone Number"placeholder="Enter Phone Nu"required/>
+        <input  type="text"id="Phone Number"name="Phone Number"placeholder="Enter Phone Nu"required/>
       </div>
+      <div class="m">
       <label for="Email">Email</label>
-      <input class="m" type="text"id="Email"name="Email"placeholder="Enter Email"required/>
-     
-      <div  class="o" >
+      <input  type="text"id="Email"name="Email"placeholder="Enter Email"required/>
+     </div>
+      <div  class="op" >
         <label for="Academic year">Academic year</label>
         <select  name="Academic year" id="Academic year" required>
           <option  value="" selected="true" disabled="true">Academic year
@@ -33,7 +37,7 @@
           <option value="Senior">Senior</option>
         </select>
       </div>
-      <div class="o">
+      <div class="op">
         <label for="Department">Department</label>
         <select name="Department" id="Department" required>
           <option value="" selected="true" disabled="true">Department
@@ -43,7 +47,8 @@
           <option value="Architecture">Architecture</option>
           <option value="civil">civil</option>
         </select>
-        <div class="o">
+      </div>
+        <div class="op">
           <label for="First preference">First preference </label>
           <select name="First preference" id="First preference" required>
             <option value="" selected="true" disabled="true">First preference
@@ -53,7 +58,7 @@
             <option value="embeded">embeded</option>
           </select>
         </div>
-        <div class="o">
+        <div class="op">
           <label for="Second preference">Second preference</label>
           <select name="Second preference" id="Second preference" required>
             <option value="" selected="true" disabled="true"> Second preference
@@ -63,13 +68,13 @@
             <option value="embeded">embeded</option>
           </select>
         </div>
-     
-      </div>
-
-      <div class="u">
+       </div>
+      
+      <div class="uu">
         <input type="submit" value="Register" />
       </div>
     </div>
+  </div>
     </form>
 </body>
 </html>
